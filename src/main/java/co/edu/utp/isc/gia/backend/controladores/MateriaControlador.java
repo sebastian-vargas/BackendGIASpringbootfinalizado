@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RequestBody;
  ***
  * @author johan
  */
-@CrossOrigin(origins = "http://localhost:4200",maxAge = 3600)//url de angular
+@CrossOrigin(origins = "https://examengiafront.herokuapp.com",maxAge = 3600)//url de angular
 @RestController
 @RequestMapping({"/materias"})
 public class MateriaControlador {
